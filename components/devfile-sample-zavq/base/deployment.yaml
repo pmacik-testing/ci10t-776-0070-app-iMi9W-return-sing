@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-zavq
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/ci10t-776-0070-tenant/ci10t-776-0070-app/devfile-sample-zavq@sha256:0677be5d9c9c26c8fbb7ce4192e8c7ea731db6a630eeab9a0c03bf927158dc7f
         name: my-nodejs
         ports:
         - containerPort: 3001
